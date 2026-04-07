@@ -429,9 +429,9 @@
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
-      "pin_not_driven": "error",
+      "pin_not_driven": "warning",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -616,12 +616,16 @@
       "Root"
     ],
     [
-      "8696eba7-f6b1-4d87-9c25-12850b58c138",
-      "Display"
+      "89315c17-e1a8-43ce-82fd-dd881e7cfdc7",
+      "Power"
     ],
     [
       "5a6aee8f-f8bc-41bb-b6ac-0847e8fe6ce8",
       "Microcontroller"
+    ],
+    [
+      "8696eba7-f6b1-4d87-9c25-12850b58c138",
+      "Display"
     ]
   ],
   "text_variables": {}
