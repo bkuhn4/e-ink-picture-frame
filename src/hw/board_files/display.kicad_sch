@@ -7523,21 +7523,21 @@
 		(fields_autoplaced yes)
 		(uuid "5708b90c-0092-489b-ad84-9460ed7ebe7b")
 		(property "Reference" "C23"
-			(at 196.85 71.1262 0)
+			(at 191.77 71.1262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10u"
-			(at 196.85 73.6662 0)
+			(at 191.77 73.6662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
