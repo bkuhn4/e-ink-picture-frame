@@ -4117,18 +4117,6 @@
 		(uuid "179d0596-5666-40ae-9575-66def81f6c1c")
 	)
 	(no_connect
-		(at 99.06 111.76)
-		(uuid "2a27564c-d20b-479e-ab50-d8ff94b7425f")
-	)
-	(no_connect
-		(at 99.06 81.28)
-		(uuid "3f08664d-ea29-4c64-8589-d5381d3de52c")
-	)
-	(no_connect
-		(at 99.06 109.22)
-		(uuid "3f87c83c-5a8c-4588-b104-da4e233e692e")
-	)
-	(no_connect
 		(at 233.68 148.59)
 		(uuid "448970e3-8155-459c-ba76-c6049be6d03f")
 	)
@@ -4159,6 +4147,18 @@
 	(no_connect
 		(at 203.2 67.31)
 		(uuid "9e7a8f46-3410-4953-ba81-bbc694146ef4")
+	)
+	(no_connect
+		(at 99.06 86.36)
+		(uuid "aec131f8-04a1-4ea8-953e-e9559e248774")
+	)
+	(no_connect
+		(at 99.06 91.44)
+		(uuid "ba0aea07-2a1a-4c1b-839a-119af881b8f6")
+	)
+	(no_connect
+		(at 99.06 88.9)
+		(uuid "ff3337e5-0d4e-4615-b640-17494c35cee6")
 	)
 	(wire
 		(pts
@@ -4492,7 +4492,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 91.44) (xy 99.06 91.44)
+			(xy 107.95 111.76) (xy 99.06 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4902,7 +4902,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 86.36) (xy 99.06 86.36)
+			(xy 107.95 81.28) (xy 99.06 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4982,7 +4982,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 88.9) (xy 99.06 88.9)
+			(xy 107.95 109.22) (xy 99.06 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6395,7 +6395,7 @@
 	)
 	(hierarchical_label "BAT_STAT1"
 		(shape input)
-		(at 107.95 88.9 0)
+		(at 107.95 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6417,7 +6417,7 @@
 	)
 	(hierarchical_label "BAT_~{PG}"
 		(shape input)
-		(at 107.95 86.36 0)
+		(at 107.95 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6428,7 +6428,7 @@
 	)
 	(hierarchical_label "BAT_STAT2"
 		(shape input)
-		(at 107.95 91.44 0)
+		(at 107.95 111.76 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6485,7 +6485,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Card:microSD_HC_Molex_104031-0811"
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3D-SF"
 			(at 308.61 123.19 0)
 			(effects
 				(font
@@ -7157,7 +7157,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "298c05cc-c509-45fe-9df1-d7d19f3a3e51")
 		(property "Reference" "U4"
 			(at 85.9633 58.42 0)
